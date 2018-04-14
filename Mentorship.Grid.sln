@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Web", "Mentorship.Grid.Web\Mentorship.Grid.Web.csproj", "{7815F7D0-AAE3-4B73-A233-9502B15D6057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Web.Tests", "Tests\Mentorship.Grid.Web.Tests\Mentorship.Grid.Web.Tests.csproj", "{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.WebApi.Server", "Mentorship.Grid.WebApi.Server\Mentorship.Grid.WebApi.Server.csproj", "{7FCF007B-7D3E-4319-BF59-B0A8012DC388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.WebApi.Server.Tests", "Tests\Mentorship.Grid.WebApi.Server.Tests\Mentorship.Grid.WebApi.Server.Tests.csproj", "{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.DataAccess", "Mentorship.Grid.DataAccess\Mentorship.Grid.DataAccess.csproj", "{C38B7B6F-4B43-43A8-A31B-702FED2E7371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.DataAccess.Tests", "Tests\Mentorship.Grid.DataAccess.Tests\Mentorship.Grid.DataAccess.Tests.csproj", "{268D460F-7F18-4E75-885D-D1CA813B89B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Wcf.Server", "Mentorship.Grid.Wcf.Server\Mentorship.Grid.Wcf.Server.csproj", "{E245B2CF-928C-461D-9AA3-4C785E46209F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Wcf.Server.Tests", "Tests\Mentorship.Grid.Wcf.Server.Tests\Mentorship.Grid.Wcf.Server.Tests.csproj", "{4631D1F3-292A-461D-A1E5-CE61E40FC842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.OpenXml.Excel", "Mentorship.Grid.OpenXml.Excel\Mentorship.Grid.OpenXml.Excel.csproj", "{C7CCD9A6-6778-4CB5-B353-E0F87C653B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.OpenXml.Excel.Tests", "Tests\Mentorship.Grid.OpenXml.Excel.Tests\Mentorship.Grid.OpenXml.Excel.Tests.csproj", "{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Service.Client", "Mentorship.Grid.Service.Client\Mentorship.Grid.Service.Client.csproj", "{FE10A8A4-B5A1-47ED-8101-31B35F44A59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentorship.Grid.Service.Client.Tests", "Tests\Mentorship.Grid.Service.Client.Tests\Mentorship.Grid.Service.Client.Tests.csproj", "{CEE27E8F-208B-48C2-B225-B75AA8321F06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7815F7D0-AAE3-4B73-A233-9502B15D6057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7815F7D0-AAE3-4B73-A233-9502B15D6057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7815F7D0-AAE3-4B73-A233-9502B15D6057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7815F7D0-AAE3-4B73-A233-9502B15D6057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCF007B-7D3E-4319-BF59-B0A8012DC388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCF007B-7D3E-4319-BF59-B0A8012DC388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCF007B-7D3E-4319-BF59-B0A8012DC388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCF007B-7D3E-4319-BF59-B0A8012DC388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38B7B6F-4B43-43A8-A31B-702FED2E7371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38B7B6F-4B43-43A8-A31B-702FED2E7371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38B7B6F-4B43-43A8-A31B-702FED2E7371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38B7B6F-4B43-43A8-A31B-702FED2E7371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268D460F-7F18-4E75-885D-D1CA813B89B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268D460F-7F18-4E75-885D-D1CA813B89B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268D460F-7F18-4E75-885D-D1CA813B89B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268D460F-7F18-4E75-885D-D1CA813B89B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E245B2CF-928C-461D-9AA3-4C785E46209F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E245B2CF-928C-461D-9AA3-4C785E46209F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E245B2CF-928C-461D-9AA3-4C785E46209F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E245B2CF-928C-461D-9AA3-4C785E46209F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4631D1F3-292A-461D-A1E5-CE61E40FC842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4631D1F3-292A-461D-A1E5-CE61E40FC842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4631D1F3-292A-461D-A1E5-CE61E40FC842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4631D1F3-292A-461D-A1E5-CE61E40FC842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CCD9A6-6778-4CB5-B353-E0F87C653B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CCD9A6-6778-4CB5-B353-E0F87C653B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CCD9A6-6778-4CB5-B353-E0F87C653B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CCD9A6-6778-4CB5-B353-E0F87C653B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE10A8A4-B5A1-47ED-8101-31B35F44A59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE10A8A4-B5A1-47ED-8101-31B35F44A59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE10A8A4-B5A1-47ED-8101-31B35F44A59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE10A8A4-B5A1-47ED-8101-31B35F44A59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE27E8F-208B-48C2-B225-B75AA8321F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE27E8F-208B-48C2-B225-B75AA8321F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE27E8F-208B-48C2-B225-B75AA8321F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE27E8F-208B-48C2-B225-B75AA8321F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1A3B7DF-18C9-46E0-BF6E-F0709F82D5DE} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+		{9EC84FAE-8F55-43FB-80DB-DACF1B51F5FD} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+		{268D460F-7F18-4E75-885D-D1CA813B89B4} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+		{4631D1F3-292A-461D-A1E5-CE61E40FC842} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+		{B34E8CB4-8C64-49DE-8E31-5ADD1B30C225} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+		{CEE27E8F-208B-48C2-B225-B75AA8321F06} = {EBE5C6B1-B793-4D4F-9FBB-E486E909D6B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7E28CB3-419A-4EB0-AFBA-ED0947A1CBA8}
+	EndGlobalSection
+EndGlobal

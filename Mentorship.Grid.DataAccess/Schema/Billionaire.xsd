@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:i="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Mentorship.DataAccess.Grid.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfBillionaires">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Billionaires">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Age" type="xs:unsignedByte" />
+              <xs:element name="CreatedOn" type="xs:dateTime" />
+              <xs:element name="FirstName" type="xs:string" />
+              <xs:element name="Id" type="xs:unsignedShort" />
+              <xs:element name="LastName" type="xs:string" />
+              <xs:element name="ModifiedOn" type="xs:dateTime" />
+              <xs:element name="Nationality" type="xs:string" />
+              <xs:element name="NetWorth" type="xs:decimal" />
+              <xs:element name="Position" type="xs:unsignedByte" />
+              <xs:element name="SourcesOfWealth">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="SourcesOfWealth">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CompanyName" type="xs:string" />
+                          <xs:element name="CreatedOn" type="xs:dateTime" />
+                          <xs:element name="Id" type="xs:unsignedShort" />
+                          <xs:element name="ModifiedOn" type="xs:dateTime" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
