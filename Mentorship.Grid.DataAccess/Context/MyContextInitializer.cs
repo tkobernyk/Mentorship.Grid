@@ -1,19 +1,12 @@
-﻿using System;
+﻿using Mentorship.Grid.DataAccess.Models;
+using System;
 using System.Collections.Generic;
-using System.Data.Entity.Migrations;
-using Mentorship.Grid.DataAccess.Context;
-using Mentorship.Grid.DataAccess.Models;
+using System.Data.Entity;
 
-namespace Mentorship.Grid.DataAccess.Migrations
-{    
-    internal sealed class Configuration : DbMigrationsConfiguration<BillionairesDbContext>
+namespace Mentorship.Grid.DataAccess.Context
+{
+    public class MyContextInitializer: CreateDatabaseIfNotExists<BillionairesDbContext>
     {
-        public Configuration()
-        {
-            AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = false;
-        }
-
         protected override void Seed(BillionairesDbContext context)
         {
             var billGates = new Billionaire

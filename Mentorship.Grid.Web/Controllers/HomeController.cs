@@ -7,7 +7,7 @@ namespace Mentorship.Grid.Web.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return Json("Hello world!");
+            return Json("Hello world!", JsonRequestBehavior.AllowGet);
         }
     }
 }

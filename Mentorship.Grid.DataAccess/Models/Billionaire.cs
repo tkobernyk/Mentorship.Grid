@@ -54,5 +54,11 @@ namespace Mentorship.Grid.DataAccess.Models
         [DataMember]
         [JsonProperty]
         public ICollection<SourceOfWealth> SourcesOfWealth { get; set; }
+
+        //public Billionaire()
+        //{
+        //    SourcesOfWealth = new List<SourceOfWealth>();
+        //}
+
     }
 }

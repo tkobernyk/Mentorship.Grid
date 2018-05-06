@@ -25,7 +25,8 @@ namespace Mentorship.Grid.DataAccess.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=Grid;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-9Q8NKBR\\SQLEXPRESS;Initial Catalog=Grid;Integrated Security=T" +
+            "rue")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
