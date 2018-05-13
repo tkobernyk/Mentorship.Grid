@@ -1,11 +1,8 @@
-using Mentorship.Grid.DataAccess.Interfaces;
-using Mentorship.Grid.DataAccess.Models;
-using Mentorship.Grid.DataAccess.Repository;
 using System;
 
 using Unity;
 
-namespace Mentorship.Grid.WebApi.Server
+namespace Mentorship.Grid.DataAccess
 {
     /// <summary>
     /// Specifies the Unity configuration for the main container.
@@ -45,9 +42,6 @@ namespace Mentorship.Grid.WebApi.Server
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
-
-           container.RegisterType<IRepository<Billionaire>, BillionaireRepository>();
-        
         }
     }
 }

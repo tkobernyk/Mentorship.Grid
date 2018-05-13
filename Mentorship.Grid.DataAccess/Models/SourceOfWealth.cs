@@ -28,13 +28,7 @@ namespace Mentorship.Grid.DataAccess.Models
         [DataMember]
         [JsonProperty]
         public string CompanyName { get; set; }
-       // [DataMember]
         [JsonIgnore]
         public ICollection<Billionaire> Billionaires { get; set; }
-
-        //public SourceOfWealth()
-        //{
-        //    Billionaires = new List<Billionaire>();
-        //}
     }
 }

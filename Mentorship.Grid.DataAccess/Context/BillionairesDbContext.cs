@@ -13,7 +13,6 @@ namespace Mentorship.Grid.DataAccess.Context
 
         static BillionairesDbContext()
         {
-            
             Database.SetInitializer<BillionairesDbContext>(new MyContextInitializer());
         }
 
@@ -22,8 +21,6 @@ namespace Mentorship.Grid.DataAccess.Context
         public DbSet<SourceOfWealth> SourcesOfWealth { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
-
-
         {
             modelBuilder.Entity<Billionaire>()
                 .HasMany<SourceOfWealth>(b => b.SourcesOfWealth)

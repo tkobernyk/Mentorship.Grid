@@ -7,7 +7,7 @@ namespace Mentorship.Grid.WebApi.Server
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            GlobalConfiguration.Configure(UnityConfig.Register);
+            //GlobalConfiguration.Configure(UnityConfig.Register);
         }
     }
 }

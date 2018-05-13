@@ -4,9 +4,6 @@ using Mentorship.Grid.DataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mentorship.Grid.DataAccess.Repository
 {

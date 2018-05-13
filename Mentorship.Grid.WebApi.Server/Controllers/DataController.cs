@@ -1,19 +1,22 @@
-﻿using Mentorship.Grid.DataAccess.Context;
-using Mentorship.Grid.DataAccess.Models;
+﻿using Mentorship.Grid.DataAccess.Models;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web.Http;
-using System.Data.Entity;
+using Mentorship.Grid.DataAccess.Interfaces;
 
 namespace Mentorship.Grid.WebApi.Server.Controllers
 {
     public class DataController : ApiController
     {
-        private BillionairesDbContext db = new BillionairesDbContext();
+        private IRepository<Billionaire> _repository;
+
+        public DataController(IRepository<Billionaire> repo)
+        {
+            _repository = repo;
+        }
 
         public IEnumerable<Billionaire> GetAll()
         {
-            var result = db.Billionaires.Include(b => b.SourcesOfWealth).ToList();
+            var result = _repository.GetAll(); 
             
             return result;
         }
@@ -22,7 +25,7 @@ namespace Mentorship.Grid.WebApi.Server.Controllers
         //[ResponseType(typeof(Billionaire))]
         public IHttpActionResult GetBillionaire(int id)
         {
-            Billionaire billionaire = db.Billionaires.Include(b => b.SourcesOfWealth).ToList().Find(b => b.Id == id);
+            Billionaire billionaire = _repository.Get(id);
             if (billionaire == null)
             {
                 return NotFound();
